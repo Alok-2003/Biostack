@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIOSTACK</title>
+  <link rel="stylesheet" href="index.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  <link rel="stylesheet" href="https://rawgit.com/cfoehrdes/slick/master/slick/slick.js"> -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+<script>!function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});
+</script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css'>
+</head>
+
+<body>
+
+  <nav>
+    <div class="menu">
+      <input type="checkbox" id="check">
+      <div class="logo">
+        <img src="Frame_removebg.png" alt="">
+        <h1>Biostack</h1>
+        <!-- <a href="#">Biostack</a> -->
+      </div>
+      <ul>
+        <label class="button cancel" for="check"><i class="fas fa-times"></i></label>
+        <li><a class="Active" href="#">HOME</a></li>
+        <li><a href="product.html">OUR PRODUCTS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+        <!-- <li><a href="#">HOME</a></li> -->
+      </ul>
+      <label class="button bars" for="check"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  <section id="Slider">
+    <div class="swiper-container slideshow">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="slide-image" style="background-image: url(Banner/1.jpg)"></div>
+            <span class="slide-title">Biostack briquetts <br>are custom made <br>mixture  with <br> high caloric value <br> and little ash. <br> </span>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="slide-image" style="background-image: url(Banner/3.jpg)"></div>
+            <span class="slide-title">Our product aims to be <br> benificial in various <br> usage</span>
+          </div>
+        <div class="swiper-slide slide">
+            <div class="slide-image" style="background-image: url(Banner/4.jpg)"></div>
+            <span class="slide-title">We promote sustainable practices <br> and reduce carbon <br> emission.</span>
+          </div>
+  <!--         <div class="swiper-slide slide">
+            <div class="slide-imageswiper-lazy" data-background="https://images.unsplash.com/photo-1538083024336-555cf8943ddc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=66b476a51b19889e13182c0e4827af18&auto=format&fit=crop&w=1950&q=80">
+            </div>
+            </div>
+            <span class="slide-title">Exotic places</span>
+          </div>
+        
+          <div class="swiper-slide slide">
+            <div class="slide-image swiper-lazy" data-background="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e07d2457879a4e15577ec75a31023e47&auto=format&fit=crop&w=2134&q=80">
+            </div>
+            <span class="slide-title">Meet ocean</span>
+          </div>
+        
+          <div class="swiper-slide slide">
+            <div class="slide-image swiper-lazy" data-background="https://images.unsplash.com/photo-1482059470115-0aadd6bf6834?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=267bba9a4e280ec64388fe8fb01e9d1b&auto=format&fit=crop&w=1950&q=80">
+            </div>
+            <span class="slide-title">Around the world</span>
+          </div> -->
+          
+      </div>
+      
+      <div class="slideshow-pagination"></div>
+      
+      <div class="slideshow-navigation">
+          <div class="slideshow-navigation-button prev"><span class="fas fa-chevron-left"></span></div>
+          <div class="slideshow-navigation-button next"><span class="fas fa-chevron-right"></span></div>
+      </div>
+      
+    </div>
+    
+  </section>
+  <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+  <!-- <section>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="/Banner/images (1).jpeg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="/Banner/images (2).jpeg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="/Banner/images (3).jpeg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="/Banner/img4.jpg" style="width:100%">
+            </div>
+            
+            </div>
+            <br>
+            <div style="text-align:center; padding-bottom: 18px;">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+    </section> -->
+
+  <section class="BAbout">
+    <!-- <h1>ABOUT</h1> -->
+    <div class="aboutInternal">
+      <h1>Biostack</h1>
+      <span>was founded in 2022.In India with a mission to provide eco-friendly fuel products made from agriculture and
+        forest waste material to meet the rapid demand for biomass fuel,our team of professional is constantly working
+        to collect important data that constantly enable us to improve the efficiency of the supply in order to keep up
+        with the rising demand for biomass fuel.</span>
+    </div>
+  </section>
+
+
+  <section class="BProduct">
+    <h1>Our <span>eco-friendly</span> product</h1>
+    <div class="PContainer">
+      <!-- PRODUCT 1 -->
+      <div class="card-hover">
+        <div class="card-hover__content">
+          <h3 class="card-hover__title">
+            <!-- Make your <span>choice</span> right now! -->
+            Bagasse Pellets
+          </h3>
+          <p class="card-hover__text">Bagasse is a fibrous residue left over after juice is extracted from sugarcane.
+          </p>
+          <a href="#" class="card-hover__link">
+            <span>Learn more</span>
+            <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+        </div>
+        <div class="card-hover__extra">
+          <!-- <h4>Learn <span>now</span> and get <span>40%</span> discount!</h4> -->
+        </div>
+        <img src="Products/1.jpg" alt="">
+      </div>
+      <!-- PRODUCT 2 -->
+      <div class="card-hover">
+        <div class="card-hover__content">
+          <h3 class="card-hover__title">
+            <!-- Make your <span>choice</span> right now! -->
+            Wood Pellets
+          </h3>
+          <p class="card-hover__text">Our wood pellets are made from sawdust and other wood waste material.</p>
+          <a href="#" class="card-hover__link">
+            <span>Learn more</span>
+            <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+        </div>
+        <div class="card-hover__extra">
+          <!-- <h4>Learn <span>now</span> and get <span>40%</span> discount!</h4> -->
+        </div>
+        <img src="Products/2.jpg" alt="">
+      </div>
+      <!-- PRODUCT 3 -->
+      <div class="card-hover">
+        <div class="card-hover__content">
+          <h3 class="card-hover__title">
+            <!-- Make your <span>choice</span> right now! -->
+            Rice Husk Pellets
+          </h3>
+          <p class="card-hover__text">Rice husk is a by-product of rice milling and can be used to produce high-quality
+            pellets.</p>
+          <a href="#" class="card-hover__link">
+            <span>Learn more</span>
+            <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+        </div>
+        <div class="card-hover__extra">
+          <!-- <h4>Learn <span>now</span> and get <span>40%</span> discount!</h4> -->
+        </div>
+        <img src="Products/3.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="OurMission">
+    <p ><span>Our mission</span> the use of biomass energy will be helpful in cogeneration system,waste
+      management,biofuel sustainable agriculture and a lot.To ensure all these things it is necessary to accelerate the
+      use of biomass energy by substituting fossil fuels with <span1>biofuels</span1>
+    </p>
+  </section>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2500); // Change image every 2 seconds
+    }
+
+    jQuery(document).ready(function () {
+      jQuery(".c-slider-init").slick({
+        dots: false,
+        nav: false,
+        arrows: false,
+        infinite: true,
+        speed: 1200,
+        autoplaySpeed: 5000,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        draggable: false,
+        pauseOnFocus: false,
+        pauseOnHover: false
+      });
+
+      jQuery(".slick-current").addClass("initialAnimation");
+
+      let transitionSetup = {
+        target: ".slick-list",
+        enterClass: "u-scale-out",
+        doTransition: function () {
+          var slideContainer = document.querySelector(this.target);
+          slideContainer.classList.add(this.enterClass);
+          jQuery(".slick-current").removeClass("animateIn");
+        },
+        exitTransition: function () {
+          var slideContainer = document.querySelector(this.target);
+          setTimeout(() => {
+            slideContainer.classList.remove(this.enterClass);
+            jQuery(".slick-current").addClass("animateIn");
+          }, 2000);
+        }
+      };
+
+      var i = 0;
+      // On before slide change
+      jQuery(".c-slider-init").on("beforeChange", function (
+        event,
+        slick,
+        currentSlide,
+        nextSlide
+      ) {
+        if (i == 0) {
+          event.preventDefault();
+          transitionSetup.doTransition();
+          i++;
+        } else {
+          i = 0;
+          transitionSetup.exitTransition();
+        }
+
+        jQuery(".c-slider-init").slick("slickNext");
+        jQuery(".slick-current").removeClass("initialAnimation");
+      });
+    });
+
+  </script>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <!-- <li><a href="#">our services</a></li> -->
+            <li><a href="#">privacy policy</a></li>
+            <!-- <li><a href="#">affiliate program</a></li> -->
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <!-- <li><a href="#">shipping</a></li> -->
+            <!-- <li><a href="#">returns</a></li> -->
+            <!-- <li><a href="#">order status</a></li> -->
+            <!-- <li><a href="#">payment options</a></li> -->
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <ul>
+            <div class="social-links">
+              <li><a href="google.com"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              <li><a href=""><i class="fab fa-youtube"></i></a></li>
+            </div>
+            <!-- <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
