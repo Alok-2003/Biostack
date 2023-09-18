@@ -422,8 +422,8 @@ body {
 } */
 
 .card-hover {
-  width: 450px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   position: relative;
   overflow: hidden;
   box-shadow: 0 0 32px -10px rgba(0, 0, 0, 0.08);
